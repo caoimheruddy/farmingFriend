@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,7 +34,7 @@
                         <label class="form-check-label" for="checkbox"> Remember Me!</label>
                         <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
                     </div>
-                    <button class="btn btn-class">Login</button>
+                    <button class="btn btn-class" type="submit">Login</button>
                     <a href="signUp.php" class="btn btn-class">Sign Up</a>
                 </form>
             </div>
