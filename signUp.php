@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,32 +21,42 @@
             </div>
             <div class="col-md-6">
                 <h3 class="signin-text mb-3">Sign Up</h3>
-                <form>
+                
+                <form action="signUp.php" method="POST">
+                
                     <div class="form-group2">
                         <label for="firstName">  First Name  </label>
                         <input type="text" name="firstName" required class="form-control2">
-                    </div>
-                    <div class="form-group2">
+
                         <label for="lastName"> Last Name  </label>
                         <input type="text" name="lastName" required class="form-control2">
-                    </div>
-                    <div class="form-group2">
+
                         <label for="email"> Email </label>
-                        <input type="email" name="email" required class="form-control2">
-                    </div>
-                    <div class="form-group2">
+                        <input type="email" name="email"  required class="form-control2">
+
                         <label for="phoneNumber"> Phone Number  </label>
-                        <input type="text" name="phoneNumber" required class="form-control2">
-                    </div>
-                    <div class="form-group2">
+                        <input type="text" name="phoneNumber" Required required class="form-control2">
+
                         <label for="herdNumber"> Herd Number  </label>
                         <input type="text" name="herdNumber" required class="form-control2">
-                    </div>              
+
+                        <label for="password1"> Password </label>
+                        <input type="text" name="password1" required class="form-control2">
+
+                        <label for="password2"> Confirm Password  </label>
+                        <input type="text" name="password2" required class="form-control2">
+                    
+                <button  type="submit" name="submit" action="server.php" method="POST">Sign Up!</button>    
+                </div>
                 </form>
-                <button class="btn btn-class2">Sign Up</button>
-             </div>
+                
+                <br>
+                <h6>Already a user?</h6>                            
+                        <a href="index.php" class="btn btn-class">Login</a>
+            </div>
         </div>
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         

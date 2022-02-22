@@ -84,13 +84,6 @@ h1{
     background-clip: padding-box;
 }
 
-
-.btn-class2{
-    border-color:#00ac96;
-    color:#00ac96;
-    margin-top: 2%;
-}
-
 .form-control2:focus{
     color:#495057;
     background-color: #fff;
