@@ -12,6 +12,7 @@
         
     </head>
     <body>
+
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">    
             <div class="col">
@@ -40,58 +41,46 @@
             .navbar a{
                 color:black;
             }
+            
             .navbar a:hover{
                 color:#00ac96;
             }
+            body{
+               background-color:darkorange; 
+            }
         </style>
     </nav>
-    <div class="content  rounded">
+    
+    <div class="content rounded">
     <div class="container">
-        <div class="row">
-        <div class="col-6 ">
-            <img src="threeSheep.jpg" class="img-fluid" alt="image">
+      <div class="row">
+        <div class="col-6">
+            <img src="backgroundSheep.jpg" class="img-fluid" alt="image">
             </div>
             <div class="col-6">
-                <h1 class="signin-text mb-3">Sign Up</h1>
-                
-                <form action="signUp.php" method="POST">
-                
-                    <div class="form-group2">
-                        <label for="firstName">  First Name  </label>
-                        <input type="text" name="firstName" required class="form-control2">
-
-                        <label for="lastName"> Last Name  </label>
-                        <input type="text" name="lastName" required class="form-control2">
-
+                <h1 class="signin-text mb-3">Log In</h1>
+                <form>
+                    <div class="form-group">
                         <label for="email"> Email </label>
-                        <input type="email" name="email"  required class="form-control2">
-
-                        <label for="phoneNumber"> Phone Number  </label>
-                        <input type="text" name="phoneNumber" Required required class="form-control2">
-
-                        <label for="herdNumber"> Herd Number  </label>
-                        <input type="text" name="herdNumber" required class="form-control2">
-
-                        <label for="password1"> Password </label>
-                        <input type="text" name="password1" required class="form-control2">
-
-                        <label for="password2"> Confirm Password  </label>
-                        <input type="text" name="password2" required class="form-control2">
-                <br>   
-                <button class="btn btn-class"  type="submit"  name="submit" action="/home/index.php" method="POST">Sign Up!</button>   
-                
-            </div>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"> Password </label>
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label" for="checkbox"> Remember Me!</label>
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                    </div>
+                    <button class="btn btn-class" type="submit">Login</button>
+                    <a href="signUp.php" class="btn btn-class">Sign Up</a>
                 </form>
-                
-                
-                <h6>Already a user?</h6>                            
-                        <a href="index.php" class="btn btn-class">Login</a>
             </div>
         </div>
-</div>
     </div>
+</div>
 
-    <footer class="text-center text-lg-start text-white" style="background-color: black">
+<footer class="text-center text-lg-start text-white" style="background-color: black">
     <div class="container p-4 pb-0">
       <section class="">
         <div class="row">
