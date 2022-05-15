@@ -155,6 +155,13 @@ $query = "INSERT INTO flock (dob, sex) VALUES ($dob, $sex) ";
         echo "All fields are required to sign up!";
     }
 
+if(isset($_POST['scanSubmit']))
+	{
+
+		$command = escapeshellcmd('python textDetection.py');
+        $output = shell_exec($command);
+        //echo $output;
+	}
  
 
 

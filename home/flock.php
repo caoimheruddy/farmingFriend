@@ -24,22 +24,22 @@ $animalResult = mysqli_query($conn, $animalquery);
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../style.css"/>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython.js">
+        </script>
     </head>
 
-    <body>
+    <body onload="brython()">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">    
             <div class="col">
-                <a class="navbar-brand" href="../index.php"> 
+                <a class="navbar-brand" href="index.php"> 
                  <img src="../logo.png" width="120" height="60"> Farming Friend
                 </a>
             </div>
             
             <div class="col-1.5">
                 <a class="nav-link" href="flock.php">My Flock</a>
-            </div> 
-            <div class="col-1.5">
-                <a class="nav-link" href="../about.php">My Details</a>
             </div> 
             <div class="col-1.5">
                 <a class="nav-link" href="../index.php">Sign Out</a>
@@ -195,15 +195,16 @@ $animalResult = mysqli_query($conn, $animalquery);
 
                        
                 <br>   
-                <button class="btn btn-class"  type="submit"  name="animalSubmit" action="/home/index.php" method="POST">Add Animal</button>   
-                
+                <button class="btn btn-class"  type="submit"  name="animalSubmit" action="/home/index.php" method="POST">Add Animal</button>
+                <button class="btn btn-class"  type="submit" name="scanSubmit" action="textDetection.py" method="POST">Click here to scan! </button>
                 </div>
                 </form>
                 
             </div>
-
-    
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
 
     </body>
 </html>

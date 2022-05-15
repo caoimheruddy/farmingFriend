@@ -21,9 +21,6 @@
                 <a class="nav-link" href="flock.php">My Flock</a>
             </div> 
             <div class="col-1.5">
-                <a class="nav-link" href="../about.php">My Details</a>
-            </div> 
-            <div class="col-1.5">
                 <a class="nav-link" href="../index.php">Sign Out</a>
             </div>
             
@@ -86,7 +83,6 @@
     <br>
     <br>
     <br>
-    
     <br>
 <br>
 <br>
@@ -99,37 +95,9 @@
 </div>
 
 <br>
-
-
-
-<div class="container-fluid bg-3 text-center bg-light">    
-  <br>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-    <h3 class="margin">Who Are We?</h3><br>
-      <p>Established in 2022, we are a family run business which aims to provide farming solutions for better farm management. Originated in Co. Donegal, Ireland.</p>
-      <img src="closeup.jpg" class="img-responsive margin" style="width:400px" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-    <h3 class="margin">What Do We Do?</h3><br>
-      <p> Our software helps you to simplify the paper work involved with sheep farming! It enables you to easily mind and keep track of your flock.</p>
-      <img src="steps.jpg" class="img-responsive margin" style="width:400px" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-    <h3 class="margin">What Is Our Mission?</h3><br>
-      <p>Our mission is simple - We want to make farm management easy and straightforward, taking the pain out of the paperwork! </p>
-      <img src="sheep.jpg" class="img-responsive margin" style="width:400px" alt="Image">
-    </div>
-  </div>
-  <br>
-  <br>
-</div>
 <br>
 <br>
     
-
-
   <footer class="text-center text-lg-start text-white" style="background-color: black">
     <div class="container p-4 pb-0">
       <section class="">
