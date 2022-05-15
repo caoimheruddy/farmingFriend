@@ -57,7 +57,6 @@
             }
             p{
                 color:white;
-                padding-right:200px;
                 
             }
             .container-fluid{
