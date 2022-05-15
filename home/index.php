@@ -21,9 +21,6 @@
                 <a class="nav-link" href="flock.php">My Flock</a>
             </div> 
             <div class="col-1.5">
-                <a class="nav-link" href="../about.php">My Details</a>
-            </div> 
-            <div class="col-1.5">
                 <a class="nav-link" href="../index.php">Sign Out</a>
             </div>
             
@@ -86,7 +83,6 @@
     <br>
     <br>
     <br>
-    
     <br>
 <br>
 <br>
@@ -103,8 +99,6 @@
 <br>
 <br>
     
-
-
   <footer class="text-center text-lg-start text-white" style="background-color: black">
     <div class="container p-4 pb-0">
       <section class="">
